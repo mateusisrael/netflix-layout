@@ -24,6 +24,7 @@ li{
 }
 
 header{
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,7 +32,8 @@ header{
     padding-left: 10%;
     padding-right: 10%;
     height: 70px;
-    background: black;
+
+    background: linear-gradient(black, transparent);
 }
 
 #netflix-logo{
