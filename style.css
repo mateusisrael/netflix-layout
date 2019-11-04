@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color: #fff;
+}
+
+nav{
+    margin-left: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 70px;
+    background: black;
+}
+
+#netflix-logo{
+    width: 100px;
+}
+
+#search-icon{
+    width: 25px ;
+    cursor: pointer;
+}
+#notification-icon{
+    margin-left: 15px;
+    width: 25px ;
+    cursor: pointer;
+}
+
+#icons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+}
+
+#user-photo{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+
+#user-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#triangle-arrow{
+    margin-left: 8px;
+    width: 16px;
+}
