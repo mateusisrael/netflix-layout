@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+main{
+    height: 2000px;
+}
+
 p{
     color: #fff;
 }
@@ -35,6 +39,7 @@ header{
 
     background: linear-gradient(black, transparent);
 }
+
 
 #netflix-logo{
     width: 100px;
