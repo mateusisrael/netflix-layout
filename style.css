@@ -100,11 +100,12 @@ header{
 #change-user-cont{
     padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 10px;
     display: flex;
-    align-items: center;
+
     flex-direction: column;
     margin-top: 15px;
-    width: 100%;
+    width: auto;
     height: 280px;
     background: black;
 }
@@ -113,9 +114,14 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: red;
-    width: 90%;
+
+    width: 100%;
     height: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 11pt;
+}
+
+.user-select p{
+    margin: 5px;
 }
