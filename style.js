@@ -6,7 +6,6 @@ let change_user = document.querySelector('#change-user');
 window.addEventListener('scroll', () => {
     
     if(document.documentElement.scrollTop > 70) {
-        console.log('1');
         header.style = 'background: black;'
 
         
@@ -28,3 +27,32 @@ user_cont.addEventListener("mouseout", () => {
         console.log("out");
         change_user.style = "display: none;"
 });
+
+
+let search_box_state = 0;
+let search_icon = document.querySelector('#search-icon')
+search_icon.addEventListener('click', changeSearchBox);
+
+
+function changeSearchBox() {
+
+    let search_box = document.querySelector('#search-box');
+    let search_input = document.querySelector('#search-input');
+
+    if(search_box_state === 0) {
+        // Executa se a search_box estiver aberta
+        search_input.style = "display: block;";
+        search_box.style = "border: 1px solid #fff; background: black;";
+        search_box_state = 1
+
+    } else if(search_box_state === 1) {
+        // Executa se a search_box estiver fechada
+        search_input.style = "display: none;";
+        search_box.style = "border: none; background: none;";
+        search_box_state = 0;
+
+    }
+
+
+    
+}
