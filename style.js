@@ -6,13 +6,13 @@ let change_user = document.querySelector('#change-user');
 window.addEventListener('scroll', () => {
     
     if(document.documentElement.scrollTop > 70) {
-        header.style = 'background: black;'
+        header.style = 'background: #141414;'
 
         
     }
 
     if(document.documentElement.scrollTop < 70) {
-        header.style = 'background: linear-gradient(black, transparent);'
+        header.style = 'background: linear-gradient(#141414, transparent);'
 
     }
 })
