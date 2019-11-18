@@ -29,6 +29,20 @@ user_cont.addEventListener("mouseout", () => {
 });
 
 
+document.querySelector('#notification-cont').addEventListener("mouseover", () => {
+    document.querySelector("#notification-box").style = "display: block;";
+
+});
+
+document.querySelector('#notification-cont').addEventListener("mouseout", () => {
+    document.querySelector("#notification-box").style = "display: none;";
+
+});
+
+
+
+
+
 let search_box_state = 0;
 let search_icon = document.querySelector('#search-icon')
 search_icon.addEventListener('click', changeSearchBox);
