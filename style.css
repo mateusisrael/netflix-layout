@@ -194,20 +194,45 @@ header{
     margin: 5px;
 }
 
-#painel-bota{
+#sobre{
+    position: absolute;
+    left: 80px;
+    bottom: 180px;
+}
+
+#painel-botao{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+#text-cont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 .botao{
+    font-size: 14px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 50px;
+    align-items: center;
+    width: 110px;
+    height: 15px;
+    margin-right: 10px;
     padding: 10px;
-    background: #fff;
+    background: #33333366;
+    cursor: pointer;
 }.botao p{
-    color: black;
+    color: #ffffff;
+}
+
+#assista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+#descricao{
+    font-size: 1.4em;
 }
